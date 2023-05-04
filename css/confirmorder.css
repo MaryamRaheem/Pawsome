@@ -1,0 +1,137 @@
+.confirm{
+    width: 100%;
+    padding: 60px 0;
+}
+
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 0 10vw;
+}
+
+.heading span{
+    font-weight: 700;
+}
+
+input,
+button {
+  border: 0 none;
+  outline: 0 none;
+}
+
+button {
+  background-color: rgb(223, 150, 55);
+  color: #fff;
+}
+
+button:hover,
+button:focus {
+  background-color: #555;
+}
+
+.basket-module,
+.basket-labels,
+.basket-product {
+  width: 100%;
+}
+
+.price:before,
+.subtotal:before,
+.subtotal-value:before,
+.total-value:before,
+.promo-value:before {
+  content: '£';
+}
+
+main {
+    clear: both;
+    font-size: 0.75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1rem 0;
+    width: 960px;
+  }
+
+  .price,
+  .quantity,
+  .subtotal {
+    width: 15%;
+  }
+  
+  .subtotal {
+    text-align: right;
+  }
+
+  aside {
+    float: none;
+    position: relative;
+    width: 30%;
+  }
+  
+  .summary {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    padding: 25px;
+    position: relative;
+    width: 250px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .summary-total-items {
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .summary-subtotal,
+  .summary-total {
+    border-top: 1px solid rgb(223, 150, 55);
+    border-bottom: 1px solid rgb(223, 150, 55);
+    clear: both;
+    margin: 1rem 0;
+    overflow: hidden;
+    padding: 0.5rem 0;
+  }
+  
+  .subtotal-title,
+  .subtotal-value,
+  .total-title,
+  .total-value,
+  .promo-title,
+  .promo-value {
+    color: #111;
+    float: left;
+    width: 50%;
+  }
+
+  .summary-delivery {
+    padding-bottom: 3rem;
+  }
+  
+  .subtotal-value,
+  .total-value {
+    text-align: right;
+  }
+  
+  .total-title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .summary-checkout {
+    display: block;
+  }
+  
+  .checkout-cta {
+    display: block;
+    float: none;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.625rem 0;
+    width: 100%;
+  }
